@@ -12,7 +12,7 @@ def cargar_lector_ia():
 
 reader = cargar_lector_ia()
 
-st.title("🛡️ Auditor Inteligente - Paquetexpress")
+st.title("🛡️ Auditor Inteligente - By Emma")
 st.write("Introduce las medidas manuales de la guía y los datos reales del dimensionador para auditar el volumen.")
 
 # Variables donde guardaremos lo que descubra la IA en la foto
