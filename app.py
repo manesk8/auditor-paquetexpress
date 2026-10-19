@@ -41,7 +41,7 @@ if st.button("🚨 Verificar Tarima"):
         
         # Lógica de decisión con tu criterio de negocio (.10 m³)
         if diferencia_vol >= 0.10:
-            st.error(f"🔴 *¡ALERTA ROJA!* Diferencia crítica de {diferencia_vol:.3f} m³. ¡SÚBELA AL WHATSAPP!")
+            st.error(f"🔴 *¡ALERTA ROJA!* Diferencia crítica de {diferencia_vol:.3f} m³. ¡SÚBELA A WHATSAPP!")
         elif diferencia_vol > 0 and diferencia_vol < 0.10:
             st.warning(f"⚠️ Diferencia leve de {diferencia_vol:.3f} m³. No es necesario reportar al grupo.")
         else:
