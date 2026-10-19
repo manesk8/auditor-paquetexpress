@@ -20,14 +20,14 @@ largo_guia = 0.0
 ancho_guia = 0.0
 alto_guia = 0.0
 st.info("Escribe las medidas de la guía manualmente de forma rápida:")
-largo_guia = st.number_input("Largo de Guía Manual (cm)", min_value=0.0, value=150.0)
+largo_guia = st.number_input("Largo de Guía Manual (cm)", min_value=0.0, value=100.0)
 ancho_guia = st.number_input("Ancho de Guía Manual (cm)", min_value=0.0, value=120.0)
 alto_guia = st.number_input("Alto de Guía Manual (cm)", min_value=0.0, value=80.0)
 # 2. Datos del Dimensionador Mettler Toledo (Lo real en el almacén)
 st.subheader("📊 Datos del Dimensionador")
-largo_real = st.number_input("Largo Real del Dimensionador (cm)", min_value=0.0, value=160.0)
-ancho_real = st.number_input("Ancho Real del Dimensionador (cm)", min_value=0.0, value=130.0)
-alto_real = st.number_input("Alto Real del Dimensionador (cm)", min_value=0.0, value=95.0)
+largo_real = st.number_input("Largo Real del Dimensionador (cm)", min_value=0.0, value=100.0)
+ancho_real = st.number_input("Ancho Real del Dimensionador (cm)", min_value=0.0, value=120.0)
+alto_real = st.number_input("Alto Real del Dimensionador (cm)", min_value=0.0, value=80.0)
 
     # 5. Botón final para ejecutar la auditoría matemática
 if st.button("🚨 Verificar Tarima"):
